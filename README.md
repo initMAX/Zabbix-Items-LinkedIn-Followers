@@ -1,4 +1,4 @@
-# Zabbix Item:  LinkedIn Folowers without API
+# LinkedIn Folowers count without API
 A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
 
 Here's a demonstration of how to do it without API.
