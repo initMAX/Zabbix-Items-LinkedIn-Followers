@@ -27,6 +27,7 @@ In our case we get company ID: 76503092
 **Name:** LinkedIn: InitMAX page followers count
 
 **Key:** linkedin.follower.count.initmax
+
 **Parameters:** 
 |  Name       | Value       |
 | ----------- | ----------- |
