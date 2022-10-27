@@ -3,7 +3,9 @@ A common way to get information about social media profiles is to use the API. H
 
 Here's a demonstration of how to do it without API.
 
-## The first thing we will need is a LinkedIn company ID. 
+## Obtaining a company id
+
+The first thing we will need is a LinkedIn company ID. 
 
 One option is to follow the official official LinkedIn documentation:
 
@@ -14,7 +16,9 @@ In our case we get company ID: 76503092
 
 ![Image of companyId](images/companyid.png "Company ID")
 
-## The next step in this demonstration is to create a basic guest to monitor the number of followers.
+## Host creation
+
+The next step in this demonstration is to create a basic guest to monitor the number of followers.
 
 **Host**: Followers
 
@@ -22,7 +26,9 @@ In our case we get company ID: 76503092
 
 ![Image of host creation](images/host.png "Image of host creation")
 
-## And now let's create the item itself.
+## Item creation
+
+And now let's create the item itself.
 
 **Name:** LinkedIn: InitMAX page followers count
 
@@ -45,7 +51,9 @@ return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id="
 
 ![Image of item creation](images/item.png "Image of item creation")
 
-### In this case, we must also create preprocessing.
+## Preprocessing
+
+In this case, we must also create preprocessing.
 
 |  Name       | Parameters              |
 | ----------- | ----------- | ----------- |
@@ -54,13 +62,16 @@ return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id="
 
 ![Image of prepsocessing creation](images/preprocessing.png "Image of prepsocessing creation")
 
+## Testing and banana moment
 
-## And we're almost done, now let's test the item.
+And we're almost done, now let's test the item.
 
 Clik on **Test** button and then click on **Get value and test** and ..... BANANA 🍌 🙂 (thanks [Steve DESTIVELLE](https://www.linkedin.com/in/steve-destivelle-88b6b389/) )
 
 ![Image of item testing](images/test.png "Image of item testing")
 
+# APIend
 
-## Now save the item and you are done. 
+Now save the item and you are done. 
+
 Enjoy the growing numbers of folowers on LinkedIn profile without API.  🙂
