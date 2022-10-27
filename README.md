@@ -57,7 +57,7 @@ return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id="
 
 ## And we're almost done, now let's test the item.
 
-Go back to záložku item clik **Test** button and then klick on **Get value and test** and ..... BANANA 🍌 🙂 (thanks [Steve DESTIVELLE](https://www.linkedin.com/in/steve-destivelle-88b6b389/) )
+Clik on **Test** button and then click on **Get value and test** and ..... BANANA 🍌 🙂 (thanks [Steve DESTIVELLE](https://www.linkedin.com/in/steve-destivelle-88b6b389/) )
 
 ![Image of item testing](images/test.png "Image of item testing")
 
