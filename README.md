@@ -18,7 +18,7 @@ In our case we get company ID: 76503092
 
 ## Host creation
 
-The next step in this demonstration is to create a basic guest to monitor the number of followers.
+The next step in this demonstration is to create a basic dummy host to monitor the number of followers.
 
 **Host**: Followers
 
