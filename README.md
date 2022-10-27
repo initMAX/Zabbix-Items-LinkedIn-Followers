@@ -1,7 +1,7 @@
-# Zabbix-Items-LinkedIn-Folowers
+# Zabbix Item:  LinkedIn Folowers without API
 A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
 
-Here's a demonstration of how to do it differently.
+Here's a demonstration of how to do it without API.
 
 ## The first thing we will need is a LinkedIn company ID. 
 
