@@ -83,7 +83,7 @@ Now save the item and you are done.
 Enjoy the growing numbers of folowers on LinkedIn profile without API.  🙂
 
 
-**Like, share and follow us** 😍 for more content: (TODO)
+**Like, share and follow us** 😍 for more content: (TODO)  
 LinkedIn  
 Twitter  
 Instagram  
