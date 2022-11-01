@@ -1,12 +1,18 @@
 # LinkedIn Folowers count without API
+
+## Template way
+
+⬆️ Download ⬆️ and import template for your version of Zabbix. 🙂
+
+## Manual way (for Zabbix 6.2)
+
 A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
 
 Here's a demonstration of how to do it without API.
 
 ## Obtaining a company id
 
-The first thing we will need is a LinkedIn company ID. 
-
+The first thing we will need is a LinkedIn company ID.  
 One option is to follow the official official LinkedIn documentation:
 
 > As a company page administrator, your Company ID can be retrieved by navigating to the admin section of your company page. For example, the LinkedIn Company Admin Page is 
@@ -75,3 +81,11 @@ Clik on **Test** button and then click on **Get value and test** and ..... BANAN
 Now save the item and you are done. 
 
 Enjoy the growing numbers of folowers on LinkedIn profile without API.  🙂
+
+
+**Like, share and follow us** 😍 for more content: (TODO)
+LinkedIn  
+Twitter  
+Instagram  
+Facebook  
+Web  
