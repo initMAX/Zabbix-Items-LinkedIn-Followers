@@ -75,7 +75,7 @@ zabbix_export:
           description: 'Company ID'
         -
           macro: '{$LINKEDIN.COMPANY.M.GRACE}'
-          value: 18h
+          value: 1h
           description: 'Milestone Grace Time'
         -
           macro: '{$LINKEDIN.COMPANY.M1}'
