@@ -80,14 +80,14 @@ Clik on **Test** button and then click on **Get value and test** and ..... BANAN
 
 Now save the item and you are done. 
 
-Enjoy the growing numbers of folowers on LinkedIn profile without API.  🙂
+Enjoy the growing numbers of folowers on LinkedIn profile without API.🙂  
 
+  
+---  
 
-
-### **Like, share and follow us** 😍 for more content:  
-[LinkedIn](https://www.linkedin.com/company/initmax/)  
-[Twitter](https://twitter.com/initmax1)  
-[Instagram](https://www.instagram.com/initmax/)  
-[Facebook](https://www.facebook.com/initmax)  
-[Web](https://www.initmax.cz/)  
- 
+**Like, share and follow us** 😍 for more content:  
+- [LinkedIn](https://www.linkedin.com/company/initmax/)🔥
+- [Twitter](https://twitter.com/initmax1)
+- [Instagram](https://www.instagram.com/initmax/)
+- [Facebook](https://www.facebook.com/initmax)
+- [Web](https://www.initmax.cz/)
