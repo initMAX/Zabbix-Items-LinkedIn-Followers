@@ -4,7 +4,7 @@
 
 ⬆️ Download ⬆️ and import template for your version of Zabbix. 🙂
 
-## Manual way (for Zabbix 6.2)
+## Manual way
 
 A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
 
@@ -46,13 +46,21 @@ And now let's create the item itself.
 | companyId   | 76503092    | 
 
 **Script:** 
+
+For version 5.2.0 
+```javascript
+params = JSON.parse(value)
+
+var request = new CurlHttpRequest();
+return request.Get("https://www.linkedin.com/pages-extensions/FollowCompany?id=" + params.companyId + "&counter=bottom");
+```
+For versions > 5.4.0
 ```javascript
 params = JSON.parse(value)
 
 var request = new HttpRequest();
 return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id=" + params.companyId + "&counter=bottom");
 ```
-
 **Update interval:** 15m
 
 ![Image of item creation](images/item.png "Image of item creation")
@@ -84,7 +92,6 @@ Enjoy the growing numbers of folowers on LinkedIn profile without API.🙂
 
   
 ---  
-
 **Like, share and follow us** 😍 for more content:  
 - [LinkedIn](https://www.linkedin.com/company/initmax/)🔥
 - [Twitter](https://twitter.com/initmax1)
