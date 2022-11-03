@@ -1,6 +1,6 @@
 zabbix_export:
   version: '5.2'
-  date: '2022-11-01T11:33:16Z'
+  date: '2022-11-03T11:23:19Z'
   groups:
     -
       name: Followers
@@ -8,6 +8,9 @@ zabbix_export:
     -
       template: 'LinkedIn followers - InitMAX'
       name: 'LinkedIn followers - InitMAX'
+      description: |
+        Developed by initMAX
+        https://git.initmax.cz/initMAX-Public/Zabbix-Items-LinkedIn-Folowers
       groups:
         -
           name: Followers
@@ -91,9 +94,10 @@ zabbix_export:
           description: 'Third Milestone'
         -
           macro: '{$LINKEDIN.COMPANY.NAME}'
-          value: InitMAX
+          value: initMAX
           description: 'Company Nane'
         -
           macro: '{$LINKEDIN.COMPANY.URL}'
           value: 'https://www.linkedin.com/company/initmax'
           description: 'Company URL'
+ 
