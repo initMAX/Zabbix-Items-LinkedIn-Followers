@@ -1,16 +1,23 @@
 # LinkedIn Folowers count without API
 
-## Template way
-
-⬆️ Download ⬆️ and import template for your version of Zabbix. 🙂
-
-## Manual way
+[//]: # (Po úpravách je nožné publikovat)
 
 A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
 
 Here's a demonstration of how to do it without API.
 
-## Obtaining a company id
+Here is two ways how this can be done  
+
+- [with template](#templates)  
+**or**  
+- [manual configuration](#manual-configuration)
+
+## Templates
+Just ⬆️ download ⬆️ and import template for your version of Zabbix and its done. 🙂
+
+## Manual configuration
+
+### Obtaining a company id
 
 The first thing we will need is a LinkedIn company ID.  
 One option is to follow the official official LinkedIn documentation:
@@ -22,7 +29,7 @@ In our case we get company ID: 76503092
 
 ![Image of companyId](images/companyid.png "Company ID")
 
-## Host creation
+### Host creation
 
 The next step in this demonstration is to create a basic dummy host to monitor the number of followers.
 
@@ -32,7 +39,7 @@ The next step in this demonstration is to create a basic dummy host to monitor t
 
 ![Image of host creation](images/host.png "Image of host creation")
 
-## Item creation
+### Item creation
 
 And now let's create the item itself.
 
@@ -46,6 +53,7 @@ And now let's create the item itself.
 | companyId   | 76503092    | 
 
 **Script:** 
+The reason why two versions are needed is that zabbix has changed the naming convention since version 5.4.0. Details can be found here: [What's new in Zabbix 5.4.0](https://www.zabbix.com/documentation/5.4/en/manual/introduction/whatsnew540)  - JavaScript objects
 
 For version 5.2.0 
 ```javascript
@@ -65,7 +73,7 @@ return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id="
 
 ![Image of item creation](images/item.png "Image of item creation")
 
-## Preprocessing
+### Preprocessing
 
 In this case, we must also create preprocessing.
 
@@ -76,7 +84,7 @@ In this case, we must also create preprocessing.
 
 ![Image of prepsocessing creation](images/preprocessing.png "Image of prepsocessing creation")
 
-## Testing and banana moment
+### Testing and banana moment
 
 And we're almost done, now let's test the item.
 
@@ -84,7 +92,7 @@ Clik on **Test** button and then click on **Get value and test** and ..... BANAN
 
 ![Image of item testing](images/test.png "Image of item testing")
 
-## APIend
+### APIend
 
 Now save the item and you are done. 
 
