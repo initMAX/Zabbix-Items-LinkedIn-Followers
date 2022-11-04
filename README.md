@@ -9,7 +9,11 @@ or
 - [manual configuration](#manual-configuration)
 
 ## Templates
-Just ⬆️ download ⬆️ and import template for your version of Zabbix and its done. 🙂
+Just ⬆️ download ⬆️ and import template for your version of Zabbix and its done. 🙂  
+
+`Followers-LinkedIn-520.yaml` - template for Zabbix 5.2.0  
+`Followers-LinkedIn-540.yaml` - template for Zabbix 5.4.0 and above
+
 
 ## Manual configuration
 
