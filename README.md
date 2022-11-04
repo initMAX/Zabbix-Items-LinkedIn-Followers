@@ -1,15 +1,11 @@
-# LinkedIn Folowers count without API
+# How to get LinkedIn profile followers count with Zabbix
 
-[//]: # (Po úpravách je nožné publikovat)
+A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token. Here's a demonstration of how to do it in Zabbix without API.
 
-A common way to get information about social media profiles is to use the API. However, this usually requires sifting through a more or less complicated process of obtaining an API Token.
-
-Here's a demonstration of how to do it without API.
-
-Here is two ways how this can be done  
+Here are two ways how this can be done:
 
 - [with template](#templates)  
-**or**  
+or  
 - [manual configuration](#manual-configuration)
 
 ## Templates
