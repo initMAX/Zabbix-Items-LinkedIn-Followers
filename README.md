@@ -48,9 +48,7 @@ And now let's create the item itself.
 | ----------- | ----------- |
 | companyId   | 76503092    | 
 
-**Script:** 
-The reason why two versions are needed is that zabbix has changed the naming convention since version 5.4.0. Details can be found here: [What's new in Zabbix 5.4.0](https://www.zabbix.com/documentation/5.4/en/manual/introduction/whatsnew540)  - JavaScript objects
-
+**Script:**  
 For version 5.2.0 
 ```javascript
 params = JSON.parse(value)
@@ -65,6 +63,8 @@ params = JSON.parse(value)
 var request = new HttpRequest();
 return request.get("https://www.linkedin.com/pages-extensions/FollowCompany?id=" + params.companyId + "&counter=bottom");
 ```
+*The reason why two versions are needed is that zabbix has changed the naming convention since version 5.4.0. Details can be found here: [What's new in Zabbix 5.4.0](https://www.zabbix.com/documentation/5.4/en/manual/introduction/whatsnew540)  - JavaScript objects*  
+
 **Update interval:** 15m
 
 ![Image of item creation](images/item.png "Image of item creation")
