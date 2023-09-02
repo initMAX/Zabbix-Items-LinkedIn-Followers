@@ -102,7 +102,7 @@ Enjoy the growing numbers of folowers on LinkedIn profile without API.🙂
 ---  
 **Like, share and follow us** 😍 for more content:  
 - [LinkedIn](https://www.linkedin.com/company/initmax/)🔥
-- [Twitter](https://twitter.com/initmax1)
+- [Twitter](https://twitter.com/initmax)
 - [Instagram](https://www.instagram.com/initmax/)
 - [Facebook](https://www.facebook.com/initmax)
 - [Web](https://www.initmax.cz/)
